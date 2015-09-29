@@ -1,0 +1,22 @@
+{
+  "name": "redo",
+  "version": "0.0.1",
+  "authors": [
+    "thujeevan <thujee@gmail.com>"
+  ],
+  "description": "react todo flux",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
