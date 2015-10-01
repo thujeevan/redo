@@ -3,11 +3,7 @@ import classnames from 'classnames';
 
 import 'material-design-lite/src/mdlComponentHandler';
 import 'material-design-lite/src/layout/layout';
-import 'material-design-icons/iconfont/MaterialIcons-Regular.woff2';
-import 'material-design-icons/iconfont/MaterialIcons-Regular.woff';
-import 'material-design-icons/iconfont/MaterialIcons-Regular.ttf';
-import 'material-design-icons/iconfont/MaterialIcons-Regular.eot';
-import '../../css/Layout.css';
+import './Layout.css';
 
 import LayoutHeader from './LayoutHeader';
 import LayoutDrawer from './LayoutDrawer';

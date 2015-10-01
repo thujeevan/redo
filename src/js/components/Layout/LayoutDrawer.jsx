@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation  from './Navigation';
+import Navigation  from 'components/Navigation/Navigation';
 
 class LayoutDrawer extends React.Component {
     constructor(props) {

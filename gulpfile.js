@@ -11,15 +11,8 @@ gulp.task("default", ["webpack-dev-server"]);
 // Advantage: No server required, can run app from filesystem
 // Disadvantage: Requests are not blocked until bundle is available,
 //               can serve an old app on refresh
-gulp.task("build:dev", ["webpack:build-dev", "static"], function() {
+gulp.task("build:dev", "webpack:build-dev", function() {
     gulp.watch(["src/**/*"], ["webpack:build-dev"]);
-});
-
-gulp.task("static", function(callback) {
-    gulp.src(__dirname + '/src/index.html').pipe(gulp.dest(__dirname + '/dist'));
-    gulp.src(__dirname + '/src/vendor/*.*').pipe(gulp.dest(__dirname + '/dist/assets'));
-    
-    callback();
 });
 
 // Production build
